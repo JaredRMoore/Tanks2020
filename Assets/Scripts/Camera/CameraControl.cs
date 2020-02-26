@@ -17,7 +17,6 @@ public class CameraControl : MonoBehaviour
         m_target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    
     private void Update()
     {
         // Scroll the camera in and out
